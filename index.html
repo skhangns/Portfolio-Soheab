@@ -1,152 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
-    />
-    <link rel="icon" type="image/png" href="techis-logo.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="img/techis-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
-  </head>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+   <div class="container">
+       <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarToggler">
+       <ul class="navbar-nav ms-auto mb-2">
+         <li class="nav-item">
+           <a class="nav-link font-black" href="#about">About</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link font-black" href="#Project">Project</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
 
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-      <!-- container, adjust the width for each device. -->
-      <div class="container">
-        <!-- navbar-brand, for your company, product, or project name. -->
-        <a class="navbar-brand title-icon" href="#"
-          ><span class="font-primary">P</span>ortfolio</a
-        >
+ 
+   <div id="about">
+       <h2><span class="font-primary">A</span>bout</h2>
+       <img src="img/ALI.JPG">
+       <div class="name">Soheab Khan</div> 
+   <div class="vocation">Web Application Developer</div>
+   <div class="skills">HTML / CSS/ Python/ Javascript/ Java/ SQL/ React/ Redux</div>
+   <p>
+       Hey, I'm Soheab Khan,
+       I'm a Full Stack Web Developer.
+   </p>
+   <div class="'email">skhanjobs15@gmail.com</div>
+   <div class="icons">
+       <a href="https://github.com/skhangns"><i class="bi bi-github"></i></a>
+       <a href="https://www.linkedin.com/in/soheab-khan/"><i class="bi bi-linkedin ms-3"></i></a>
+   </div>
+   </div>
 
-        <!-- navbar-toggler, for use with our collapse plugin and other navigation toggling behaviors. -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarToggler"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+   <div id="project">
+     <h2><span class="font-primary">P</span>roject</h2>
+     <div class="card mb-3">
+       <div class="row">
+         <div class="col-md-4">
+           <video id="video" autoplay muted controls src="video/capture-3.mp4"></video>
+         </div>
+         <div class="col-md-8">
+           <div class="card-body">
+             <h5 class="card-title">StopWatch</h5>
+             <p class="card-text"><strong>Project Description:</strong>This is a project I made in java that explores the Object Oriented Programming concepts like Inheritance, Abstraction and Encapsulation. The project consists of a stopwatch and timer class which are both timeable (abstract class). They work on a Time object that has fields such as hour, minute and second.
+               <br> <br> <strong>Technologies Used:</strong> Java Oops Concept
+             </p>
+             <a href="https://github.com/skhangns/java-project" target="_blank" class="btn btn-secondary">Github link</a>
+   
+           </div>
+         </div>
+       </div>
+     </div>
 
-        <!-- .collapse .navbar-collapse, for grouping and hiding navbar contents by a parent breakpoint. -->
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <!-- navbar-nav, for a full-height and lightweight navigation -->
-          <!-- ms-auto, for pushing items to the left -->
-          <!-- mb-2, for a margin bottom for 2 levels -->
-          <ul class="navbar-nav ms-auto mb-2">
-            <li class="nav-item">
-              <a class="nav-link font-black" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-black" href="#projects">Projects</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+     <div class="card mb-3">
+       <div class="row">
+         <div class="col-md-4">
+           <video id="video" autoplay muted controls src="video/Restrocafe.mp4"></video>
+         </div>
+         <div class="col-md-8">
+           <div class="card-body">
+             <h5 class="card-title">Restro Cafe</h5>
+             <p class="card-text"><strong>Project Description:</strong>This is an online food menu service for Tasty Tater. These days, when you visit a restaurant, you often use the QR code to load the PDF of the menu. It has no image and is not easy to select items. So we created the menu app where you can see food images with the needed information and select your items easily. During such unprecedented time and social distancing, online menu card technology is a boon!
+               <br> <br> <strong>Technologies Used:</strong> Html, CSS, Bootstrap, Javascript / JQuery, Django, Cloudinary (To host uploaded images on CDN), Heroku.
+             </p>
+             <a href="https://restro-frontend.skhangns.repl.co/" target="_blank" class="btn btn-secondary">Website link</a>
+             <a href="https://github.com/skhangns/Restro_Cafe" target="_blank" class="btn btn-secondary">Github link</a>
+   
+           </div>
+         </div>
+       </div>
+     </div>
 
-    <div id="about">
-      <h2><span class="font-primary">A</span>bout</h2>
-      <img src="img/sample-woman.jpg" />
-      <div class="name">Soheab Khan</div>
-      <div class="vocation">Web Application Developer</div>
-      <div class="skills">
-        HTML / CSS / JavaScript / React.js / Redux / Python / Django /
-        Express.js / AWS(Basics) / Docker (Basics)
-      </div>
-      <p>
-        An SPA That displayes subreddit data from Reddit for a spcified time
-        period. As the front-end developer, I worked
-      </p>
-      <div class="email">skhangns@gmail.com</div>
-      <div class="icons">
-        <a href="https://github.com/skhangns" target="_blank"
-          ><i class="bi bi-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/soheab-khan-92707322b/"
-          target="_blank"
-          ><i class="bi bi-linkedin ms-3"></i
-        ></a>
-      </div>
-    </div>
+     <div class="card mb-3">
+       <div class="row">
+         <div class="col-md-4">
+           <video id="video" autoplay muted controls src="video/Twitterclone.mp4" ></video>
+         </div>
+         <div class="col-md-8">
+           <div class="card-body">
+             <h5 class="card-title">Twitter Clone</h5>
+             <p class="card-text"><strong>Project Description:</strong> Users can post tweets and see everyone's in our app. To keep the 
+               project simple, we did not include a sign-up/login functionality. But you can learn CRUD(Create/Read/Update/Delete) through this project.
 
-    <div id="project">
-      <h2><span class="font-primary">P</span>roject</h2>
+               <br>
+               With this project, we created a platform where you can express your
+thoughts anonymously, showcase your pictures, and much more on a
+single website. Post, edit, or delete posts at the convenience of just a few
+touches. This project is based on Twitter and anonymity adds to its special
+features. Without the necessity of an account,
+               <br> <br><strong>Technologies Used:</strong> Html, CSS, Bootstrap, Javascript / JQuery, Django, Cloudinary (To host uploaded images on CDN), Heroku.
+             </p>
+             <a href="https://Main-Twitter-Clone.skhangns.repl.co" target="_blank" class="btn btn-secondary">Website link</a>
+             <a href="https://github.com/skhangns/Main-Twitter-Clone" target="_blank" class="btn btn-secondary">Github link</a>
+   
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+</body> 
 
-      <div class="card mb-3">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/project-twitter.png" alt="Twitter Project" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Twitter Clone</h5>
-              <p class="card-text">
-                This is a twitter based project made using Django
-              </p>
-              <p class="card-text">
-                <small class="text-muted">
-                  Test Login Account <br />
-                  Email : test@gmail.com <br />
-                  Password : 1234
-                </small>
-              </p>
-              <a href="#" target="_blank" class="btn btn-secondary"
-                >Website Link</a
-              >
-              <a href="#" target="_blank" class="btn btn-secondary"
-                >Github Link</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/project-netflix.png" alt="Netflix Project" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Netflix Clone</h5>
-              <p class="card-text">
-                This is a Netflix based project using HTML / CSS / JS
-              </p>
-              <p class="card-text">
-                <small class="text-muted">
-                  Test Login Account <br />
-                  Email : test@gmail.com <br />
-                  Password : 1234
-                </small>
-              </p>
-              <a href="#" target="_blank" class="btn btn-secondary"
-                >Website Link</a
-              >
-              <a href="#" target="_blank" class="btn btn-secondary"
-                >Github Link</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+</html></html>
